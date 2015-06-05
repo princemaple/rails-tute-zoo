@@ -1,0 +1,10 @@
+{{type}}
+
+<table>
+  {{#each words}}
+  <tr>
+    <th>{{@index}}</th>
+    <td>{{this}}</td>
+  </tr>
+  {{/each}}
+</table>
